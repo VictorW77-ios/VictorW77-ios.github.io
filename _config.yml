@@ -1,0 +1,20 @@
+# Site settings
+author: Victor Williams
+title: My Flatiron Experience
+header-img: img/home-bg.png
+email: victor.williams1030@gmail.com
+copyright_name: Victor Williams
+description: > # this means to ignore newlines until "baseurl:"
+  How I went from law to coding and never looked back
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: vicxwill
+github_username:  VictorW77-ios
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
